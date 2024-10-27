@@ -79,3 +79,13 @@ Learn more about the power of Turborepo:
 - [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
 - [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
 - [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+
+## 고려사항
+
+- /apps 에서는 backend, mobile, web 각각의 프로젝트 작성
+- /packages/ui 에서는 react 프로젝트로 공통 컴포넌트 작성
+
+- 공통 모듈은 /packages 안에 작성
+- 전체 프로젝트 설정은 / 에서 작성하고 공유
+
+- 나중에 docker
